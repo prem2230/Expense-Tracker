@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Bricolage+Grotesque&family=Cormorant+Garamond:wght@300;500&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;500;600;700&family=Stick+No+Bills:wght@300;400;500;700&display=swap');
+.App{
+  display: flex;
+  margin: 0 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-image: linear-gradient( #304352, #d7d2cc);
+  font-family: 'Bodoni Moda', serif;
+}
+.header{
+  font-size: 30px;
+  font-weight:500;
+  padding: 20px;
+  color: #fff;
+}
+.home{
+  display: flex;
+  padding: 10px 20px;
+  width: 250px;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+  background-color: #d7d2cc50;
+  border-radius: 10px;
+}
+.balance{
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+.addTxn{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+form input:not([type="checkbox"]){
+  width: 230px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0;
+  outline: none;
+  font-size: 14px;
+  padding: 0px 20px;
+}
+.checkBox{
+  display: flex;
+  padding: 20px 10px ;
+  gap: 30px;
+  align-items: center;
+  background-color: #f5f3f150;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.checkBox input{
+  width: 30px;
+}
+.btn{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.addBtn{
+  background-color: #17242e;
+  color: #fff;
+  border-radius: 3px;
+  width: 120px;
+}
+.txns{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  width: 250px;
+  margin-top: 10px ;
+  margin-bottom: 10px ;
+  justify-content: center;
+  align-items: center;
+  background-color: #d7d2cc50;
+  border-radius: 10px;
+}
+.txns input{
+  width: 230px;
+  height: 25px;
+  padding: 0 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.listItems{
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+
+}
+.items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+  width: 30px;
+  height: 40px;
+  margin-top: 10px;
+  color: #304352;
+}
+.icon:focus,.icon:hover{
+  color: red;
+
+}
+.itemss{
+  display: flex;
+  width: 230px;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 5px;
+  border-bottom: 1px solid #304352;
+  margin-top: 10px;
+}
+
+
+.resetBtn{
+  background-color: #17242e;
+  color: #fff;
+  border-radius: 3px;
+  width: 150px;
+  margin-top: 20px;
+}
