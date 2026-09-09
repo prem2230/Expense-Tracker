@@ -63,6 +63,7 @@ function App() {
     setDescription('')
     setTransactionType('')
   }
+  // used for resetting the transaction
   const handleReset=(e)=>{
     e.preventDefault()
     setTransaction([])
