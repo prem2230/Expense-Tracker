@@ -68,6 +68,7 @@ function App() {
     setTransaction([])
     setBalance(0)
   }
+  // used for deleting the transaction
   const handleDelete=(id)=>{
     const deletedTransaction = transaction.find((item)=>item.id===id);
     if(deletedTransaction){
