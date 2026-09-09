@@ -9,7 +9,7 @@ function App() {
   const [amount,setAmount] = useState('');
   const [description,setDescription] = useState('');
   const [transaction,setTransaction] = useState([]);
-  const[transactionType,setTransactionType] = useState('')
+  const[transactionType,setTransactionType] = useState('Expense')
   const[search,setSearch] = useState('')
 
   useEffect(()=>{

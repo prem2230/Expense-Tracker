@@ -23,7 +23,7 @@ const Addtransaction = ({amount,setAmount,description, setDescription, transacti
           <div className="checkBox">
             <div>
               <input 
-              type="checkbox" 
+              type="radio" 
               id='expense'
               checked={transactionType==='Expense'}
               onChange={()=>setTransactionType('Expense')} />
@@ -31,7 +31,7 @@ const Addtransaction = ({amount,setAmount,description, setDescription, transacti
             </div>
             <div>
               <input 
-              type="checkbox"
+              type="radio"
               id='income'
               checked={transactionType==='Income'}
               onChange={()=>setTransactionType('Income')} />
