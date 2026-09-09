@@ -30,7 +30,7 @@ function App() {
 
  
    
-
+// used for adding transaction
   const handleAdd =(e)=>{
     e.preventDefault();
     if(!amount || amount<0 || !description || !transactionType ){
